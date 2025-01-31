@@ -5,7 +5,10 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "commit": "git add . && git commit -m \"%npm_config_message%\" && git push origin main"
+        "fastcommit": "git add . && git commit -m \"%npm_config_message%\" && git push origin main",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "repository": {
         "type": "git",
@@ -20,5 +23,13 @@
     "bugs": {
         "url": "https://github.com/Xayne/data-optics/issues"
     },
-    "homepage": "https://github.com/Xayne/data-optics#readme"
+    "homepage": "https://github.com/Xayne/data-optics#readme",
+
+    "private": true,
+    "type": "module",
+    
+    "devDependencies": {
+      "vite": "^6.0.5",
+      "terser": "^5.10.0"
+    }
 }
