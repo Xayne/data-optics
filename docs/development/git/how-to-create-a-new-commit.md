@@ -1,5 +1,9 @@
 ## How to Create a New Commit
 
+npm run commit --message="..."
+
+## OR
+
 1. **Stage Changes**: Add the files you want to commit to the staging area.
    ```sh
    git add <file-name>
