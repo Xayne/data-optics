@@ -1,0 +1,23 @@
+{
+    "name": "data-optics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Xayne/data-optics.git"
+    },
+    "keywords": [
+        "data",
+        "visualization"
+    ],
+    "author": "Xayne",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Xayne/data-optics/issues"
+    },
+    "homepage": "https://github.com/Xayne/data-optics#readme"
+}
